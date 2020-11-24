@@ -1,0 +1,176 @@
+<head>
+    <title> Lemo.Net </title>
+    <link rel="stylesheet" type="text/css" href="style_index.css">
+    <link rel="stylesheet" type="text/css" href="style_post.css">
+    <link rel="stylesheet" type="text/css" href="style_profiles.css"> 
+    <link rel='shortcut icon' type='image/png' href='Imagini/image.png'>  
+
+</head>
+
+<body>
+<div class="header">
+    <img src="Imagini/logo.png" class="logo">
+    <a href="index.html"><img src="Imagini/image.png" class="icon"></a>
+    <div class="dropdown">
+      <img src="Imagini/setting.png" class="setting"> 
+      <div class="dropdown-content">
+            <button onclick="alertspec()" class="sett">General</button>
+            <button onclick="alertspec()" class="sett">Security</button>
+            <button onclick="alertspec()" class="sett">Privacy</button>
+            <button onclick="alertspec()" class="sett">Language</button>
+            <button onclick="alertspec()" class="sett">Notifications</button>
+            <button onclick="alertspec()" class="sett">Payment</button>
+    </div>
+</div>
+    <a href="log_in.html"><img src="Imagini/logout.png" class="logout"></a>
+    <a href="help.html"><img src="Imagini/help.png" class="help"></a>
+</div>
+
+<div class="alert" id="alertmessage4" align="center">
+        <span class="closebtn" onclick="alert4()">&times;</span>
+        <font size=4px>WARNING!<br>
+        !You need to be logged in to enter a group!</font>
+      </div> 
+ <div class="alertspec" id="alertspec" align="center">
+        <span class="closebtn" onclick="alertspec()">&times;</span>
+        <font size=4px color=black>INFO!<br>
+        !This part of this site is in development. Sorry for the inconvenience!</font>
+      </div>      
+<div class="rightside">
+<div class="bottom">
+    <a href="reclama1.html"><img src="Imagini/reclama.png" class="reclama"></a>
+    <img src="Imagini/ad.png" class="ad">
+</div>
+<div class="friends">
+    <div class="titlefr"><p>Friends</p></div>
+<button class="friendbtn" onclick="showDiv1()"><a href="Serban_Iustinian.html"><img src="Imagini/Iustinian_Serban.jpg" class="image1"></a>Serban Iustinian</button>
+<button class="friendbtn" onclick="showDiv2()"><a href="Martis_Robert.html"><img src="Imagini/Robert_Martis.jpg" class="image1"></a>Martis Robert</button>
+<button class="friendbtn" onclick="showDiv3()"><a href="Ciobanu_Razvan.html"><img src="Imagini/Razvan_Ciobanu.jpg" class="image1"></a>Ciobanu Razvan</button>
+<button class="friendbtn" onclick="showDiv4()"><a href="Munteanu_Stefan.html"><img src="Imagini/Stefan_Munteanu.jpg" class="image1"></a>Munteanu Stefan</button>
+<button class="friendbtn" onclick="showDiv5()"><a href="Isachi_Cristi.html"><img src="Imagini/Cristi_Isachi.jpg" class="image1"></a>Isachi Cristi</button>
+</div>
+<div id="event" class="events"><br><b>-Events-</b><br>
+    <p class="txt">OTI 2019 ARAD - <i><font color=red>expired</font></i></p>
+    <p class="txt">Alex&TheFatPinguins <br> <i><font color=red>12 iunie</font></i></p>
+    <p class="txt">Summer Holiday - <i><font color=red>14 iunie</font></i></p>
+    <p class="txt">E3 - <i><font color=red>16 iunie</font></i></p>
+    <p class="txt">Concert Antonia - <i><font color=red>18 iunie</font></i></p><br>
+    <i><b>-No upcoming events-</b></i>
+    </div>
+<div id="friend_1" class="friend">
+    <div class="header_conv">
+        <img src="Imagini/Iustinian_Serban.jpg" class="image2">
+        <img src="Imagini/Name1.png" class="name">
+        <img src="Imagini/setting.png" class="attention">
+    </div>
+    <div class="bottom_conv">
+        <input type="text" name="mess_area" placeholder="Write a message..">
+        <img src="Imagini/send.png" class="send">
+    </div>
+</div>
+<div id="friend_2" class="friend">
+        <div class="header_conv">
+                <img src="Imagini/Robert_Martis.jpg" class="image2">
+                <img src="Imagini/Name2.png" class="name">
+                <img src="Imagini/setting.png" class="attention">
+            </div>
+            <div class="bottom_conv">
+                <input type="text" name="mess_area" placeholder="Write a message..">
+                <img src="Imagini/send.png" class="send">
+            </div>
+</div>
+<div id="friend_3" class="friend">
+        <div class="header_conv">
+                <img src="Imagini/Razvan_Ciobanu.jpg" class="image2">
+                <img src="Imagini/Name3.png" class="name">
+                <img src="Imagini/setting.png" class="attention">
+            </div>
+            <div class="bottom_conv">
+                <input type="text" name="mess_area" placeholder="Write a message..">
+                <img src="Imagini/send.png" class="send">
+            </div>
+</div>
+<div id="friend_4" class="friend">
+        <div class="header_conv">
+                <img src="Imagini/Stefan_Munteanu.jpg" class="image2">
+                <img src="Imagini/Name4.png" class="name">
+                <img src="Imagini/setting.png" class="attention">
+            </div>
+            <div class="bottom_conv">
+                <input type="text" name="mess_area" placeholder="Write a message..">
+                <img src="Imagini/send.png" class="send">
+            </div>
+</div>
+<div id="friend_5" class="friend">
+    <div class="header_conv">
+        <img src="Imagini/Cristi_Isachi.jpg" class="image2">
+        <img src="Imagini/Name4.png" class="name">
+        <img src="Imagini/setting.png" class="attention">
+    </div>
+    <div class="bottom_conv">
+        <input type="text" name="mess_area" placeholder="Write a message..">
+        <img src="Imagini/send.png" class="send">
+    </div>
+</div>
+
+<div class="credits"><p1><i>Lemo.net© 2019</i></p1></div>
+
+</div>
+
+<div class="quick_acces">
+        <button class="quickbtn">Friends Request: <font color="red">0</font></button><br>
+        <button class="quickbtn" onclick="showEvent()"><img src="Imagini/Events_icon.png" class="quick_icon">Events</button></a><br>
+        <button class="quickbtn" onclick="alertspec2()"><img src="Imagini/Marketplace_icon.png" class="quick_icon">Marketplace</button>
+    <div class="quick_text"><div class="text_quick"><b>Groups</b></div></div>
+    <button class="quickbtn" onclick="alert4()"><img src="Imagini/Sadchan_avatar.jpg" class="quick_icon2">Sadchan</button></a><br>
+    <button class="quickbtn" onclick="alert4()"><img src="Imagini/Isdead_avatar.jpg" class="quick_icon2">IsDead</button></a><br>
+    <button class="quickbtn" onclick="alert4()"><img src="Imagini/Tgocna_icon.jpg" class="quick_icon2">Tg. Ocna</button></a><br>
+    <button class="quickbtn" onclick="alert4()"><img src="Imagini/CNCostacheNegri_icon.jpg" class="quick_icon2">C.N. C.N.</button></a><br>
+    <button class="quickbtn" onclick="alert4()"><img src="Imagini/Unibv_icon.jpg" class="quick_icon2">UniBV Crush</button></a><br>
+    <button class="quickbtn" onclick="alert4()"><img src="Imagini/Enduro_icon.jpg" class="quick_icon2">Enduro Bikers</button></a><br>
+  <div class="quick_text"><div class="text_quick"><b>Games</b></div></div>
+  <a href="Candycrush_trailer.html"><button class="quickbtn"><img src="Imagini/CandyCrush_icon.jpg" class="quick_icon2">Candy Crush</button></a><br>
+  <a href="Coinmaster_trailer.html"><button class="quickbtn"><img src="Imagini/Coinmaster_icon.jpeg" class="quick_icon2">Coin Master</button></a><br>
+  <a href="Bitcoin_trailer.html"><button class="quickbtn"><img src="Imagini/bitcoin_icon.ico" class="quick_icon2">Bitcoin</button></a><br>
+  <a href="Csgo_trailer.html"><button class="quickbtn"><img src="Imagini/csgo_ico.jpeg" class="quick_icon2">CS:GO</button></a><br>
+</div>
+<object width="780px" height="510px" style="position: absolute; top:10%; left: 18.12%; border-radius: 5px;" data="https://www.youtube.com/embed/tmxqlSevtkQ"></object>
+
+<div class="alertgame" id="alertmessage2" align="center">
+        <font size=4px>WARNING!<br>
+        !You need to create an account to play this game!</font>
+      </div> 
+<div class="alertspec" id="alertspec2" align="center">
+            <span class="closebtn" onclick="alertspec2()">&times;</span>
+            <font size=4px color=black>INFO!<br>
+            !Our store is not open yet!</font>
+          </div> 
+</body>
+</html>
+
+<script>
+     function showDiv1() {
+    document.getElementById('friend_1').classList.toggle("show1");}
+    function showDiv2() {
+    document.getElementById('friend_2').classList.toggle("show2");}
+    function showDiv3() {
+    document.getElementById('friend_3').classList.toggle("show3");}
+    function showDiv4() {
+    document.getElementById('friend_4').classList.toggle("show4");}
+    function showDiv5() {
+    document.getElementById('friend_5').classList.toggle("show5");}
+    
+    function showEvent() {
+    document.getElementById('event').classList.toggle("event1");}
+
+    function alert1() {
+    document.getElementById('alertmessage').classList.toggle("alert2");} 
+    function alert3() {
+    document.getElementById('alertmessage3').classList.toggle("alert2");}
+    function alert4() {
+    document.getElementById('alertmessage4').classList.toggle("alert2");}
+    function alertspec() {
+    document.getElementById('alertspec').classList.toggle("alert2");}
+    function alertspec2() {
+    document.getElementById('alertspec2').classList.toggle("alert2");}
+</script>
